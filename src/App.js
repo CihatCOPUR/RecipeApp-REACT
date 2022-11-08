@@ -4,10 +4,10 @@ import AppRouter from './router/AppRouter';
 
 function App() {
   return (
-    <center className="App">
+    <div >
       
     <AppRouter/>
-    </center>
+    </div>
   );
 }
 

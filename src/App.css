@@ -1,0 +1,36 @@
+.login{
+    display: flex;
+    
+    flex-wrap: wrap;
+    background-image: url(https://img.freepik.com/free-photo/top-view-milk-white-chocolate-copy-space_23-2148238696.jpg?w=996&t=st=1667919732~exp=1667920332~hmac=573666e28bc635447d1f41c512882c931d6b080c968865a22b3dae61678f084a);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input{
+    border: 2px solid yellow;
+    width: 50%;
+    height: 60vh;
+    margin-left: 45%;
+    margin-top: 10%;
+    background-color: rgb(168, 237, 214,0.6);
+    border-radius: 45px;
+}
+.form{
+ padding: 1rem;
+ margin-top: 10%;
+}
+.form button{
+    margin-top: 2rem;
+    margin-left: 25%;
+    width:45%;
+    background-color: darkcyan;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form input{
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+}
