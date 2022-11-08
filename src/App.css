@@ -1,3 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+background-color: aquamarine;
+
+}
+.link{
+  margin-right: 10%;
+  text-decoration: none;
+}
+
+
+
+
 .login{
     display: flex;
     
@@ -6,6 +21,13 @@
     height: 95vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.loginh1{
+    text-align: center;
+    margin-top: 2rem;
+    
+    
+    
 }
 .input{
     border: 2px solid yellow;
@@ -18,7 +40,7 @@
 }
 .form{
  padding: 1rem;
- margin-top: 10%;
+ 
 }
 .form button{
     margin-top: 2rem;
@@ -29,7 +51,7 @@
     cursor: pointer;
 }
 .form input{
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 100%;
     border-radius: 5px;
     padding: 3px;
