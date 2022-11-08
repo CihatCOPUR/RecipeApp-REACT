@@ -6,8 +6,10 @@ const Home = () => {
 
   const APP_ID=`90da419b`;
   const APP_KEY=`af2bd5bfdcaf49b896fc9dce958c73bc`
-  const [query, setQuery] = useState("egg");
-  const [selectedMeal, setSelectedMeal] = useState("breakfast");
+  const [query, setQuery] = useState("");
+  const [selectedMeal, setSelectedMeal] = useState("");
+  const mealType=["Breakfast","Launch","Dinner","Snack","TeaTime"]
+  
   const [recipes, setRecipes] = useState("")
 
   const url=`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${selectedMeal}`;
@@ -20,7 +22,7 @@ const Home = () => {
    
   }
 
-
+console.log(recipes)
   useEffect(() => {
     
   getData();
@@ -31,7 +33,7 @@ const Home = () => {
   return (
     <div className='home'>
 
-      <Header/>
+      <Header setQuery={setQuery} getData={getData} setSelectedMeal={setSelectedMeal} mealType={mealType}/>
       
     </div>
   )

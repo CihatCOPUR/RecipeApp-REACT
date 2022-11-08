@@ -1,18 +1,18 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({setQuery,getData,setSelectedMeal,mealType}) => {
   return (
     <div className='header'>
       
      <center>
-      <input type="text" placeholder='SEARCH' />
-      <button>SEARCH</button>
-      <select name="" id="">
-        <option value="">Breakfast</option>
-        <option value="">Branch</option>
-        <option value="">Launch Dinner</option>
-        <option value="">snack</option>
-        <option value="">TeaTime</option>
+      <input type="text" placeholder='SEARCH'  onChange={()=> setQuery()}/>
+      <button onClick={()=>getData}>SEARCH</button>
+      <select name="mealType" id="mealType" onChange={(e)= setSelectedMeal(e.target.value)}>
+       {mealType.map((meal)=>{
+        return(
+          <option key={meal.index} value={meal}>{meal}</option>
+        )
+       })}
       </select>
      </center>
     </div>
