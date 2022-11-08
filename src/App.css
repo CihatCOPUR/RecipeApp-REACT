@@ -5,12 +5,21 @@
 background-color: aquamarine;
 
 }
+.navbar2{
+  display: flex;
+  justify-content: space-between;
+  
+}
 .link{
-  margin-right: 10%;
-  text-decoration: none;
+    text-decoration: none;
+    padding: 0.3rem;
 }
 
-
+.header {
+    margin-top: 2rem;
+    
+    
+}
 
 
 .login{

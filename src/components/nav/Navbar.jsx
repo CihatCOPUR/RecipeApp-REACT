@@ -7,11 +7,11 @@ const Navbar = () => {
       <div>
       <h1> RECIPE-APP</h1>
       </div>
-      <div className='link' fixed="top">
-      <Link to="/">Home</Link>
-      <Link to="about">About</Link>
-      <Link to="register">Register</Link>
-      <Link to="logout">Logout</Link>
+      <div  className='navbar2' fixed="top">
+      <Link className='link' to="/">Home</Link>
+      <Link  className='link' to="about">About</Link>
+      <Link  className='link' to="register">Register</Link>
+      <Link className='link' to="logout">Logout</Link>
       </div>
     </div>
   )
