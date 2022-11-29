@@ -7,7 +7,7 @@ const Header = ({setQuery,getData,setSelectedMeal,mealType}) => {
      <center>
       <input type="text" placeholder='SEARCH'  onChange={()=> setQuery()}/>
       <button onClick={()=>getData}>SEARCH</button>
-      <select name="mealType" id="mealType" onChange={(e)= setSelectedMeal(e.target.value)}>
+      <select name="mealType" id="mealType" value="" onChange={(e)= setSelectedMeal(e.target.value)}>
        {mealType.map((meal)=>{
         return(
           <option key={meal.index} value={meal}>{meal}</option>
