@@ -10,6 +10,17 @@ background-color: aquamarine;
   justify-content: space-between;
   
 }
+@media  (max-width: 575px) {
+    .navbar{
+        display: block;
+    }
+    .navbar2 {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      
+    }
+  }
 .link{
     text-decoration: none;
     padding: 0.3rem;
