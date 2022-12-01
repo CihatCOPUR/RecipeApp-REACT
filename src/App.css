@@ -44,9 +44,8 @@ background-color: aquamarine;
     
 }
 
-.card image {
-    width: 15rem;
-    height: 9rem;
+.card2{
+    display: block;
 }
 
 .login{
