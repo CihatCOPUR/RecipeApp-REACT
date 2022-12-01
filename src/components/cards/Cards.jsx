@@ -12,7 +12,7 @@ const Cards = ({recipes}) => {
       <Card.Body className='card2'>
         <Card.Title>{recipe.label}</Card.Title>
         <img src={recipe.image} alt="" />
-        <Button variant="primary">Go somewhere</Button>
+        <Button  variant="primary">Detail</Button>
       </Card.Body>
     </Card> 
         </div>
