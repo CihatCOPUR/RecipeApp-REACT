@@ -1,5 +1,6 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
+import Cards from '../../components/cards/Cards';
 import Header from '../../components/header/Header';
 
 const Home = () => {
@@ -23,11 +24,12 @@ const Home = () => {
   }
 
 console.log(recipes)
-  useEffect(() => {
+
+  // useEffect(() => {
     
-  getData();
+  // // getData();
     
-  }, [])
+  // }, [])
   
 
   return (
@@ -35,6 +37,10 @@ console.log(recipes)
 
       <Header  mealType={mealType} setSelectedMeal={setSelectedMeal} setQuery={setQuery} getData={getData}/>
       
+
+    {recipes?.length ? <Cards  recipes={recipes}/>:""}
+
+
     </div>
   )
 }

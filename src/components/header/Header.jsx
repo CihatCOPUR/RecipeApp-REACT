@@ -1,9 +1,16 @@
 import React from "react";
 
+
 const Header = ({ setQuery, getData, setSelectedMeal, mealType }) => {
+
+const handleSubmit=(e)=>{
+  e.preventDefault();
+  getData();
+}
+
   return (
-    <form className="header" onSubmit={getData}>
-      <center>
+    <center>
+      <form className="header" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="SEARCH"
@@ -16,14 +23,16 @@ const Header = ({ setQuery, getData, setSelectedMeal, mealType }) => {
           value=""
           onChange={(e) => setSelectedMeal(e.target.value)}
         >
-          {mealType.map((meal,index) => (
+          {mealType.map((meal, index) => (
             <option key={index} value={meal}>
               {meal}
             </option>
           ))}
         </select>
-      </center>
-    </form>
+     
+      </form>
+      
+    </center>
   );
 };
 
