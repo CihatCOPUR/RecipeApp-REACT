@@ -6,8 +6,8 @@ const Cards = ({recipes}) => {
   return (
     <div className='card' >
       {recipes.map(({recipe},index)=>(
-        <div key={index}> 
-          <Card >
+        <div key={index} className="indexDiv"> 
+          <Card className='card1'>
       
       <Card.Body className='card2'>
         <Card.Title>{recipe.label}</Card.Title>

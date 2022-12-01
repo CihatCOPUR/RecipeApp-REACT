@@ -37,15 +37,26 @@ background-color: aquamarine;
 
 .card{
     display: flex ;
-    gap: 2rem;
+    margin-left: 2rem;
     flex-wrap: wrap;
+    width: 100%;
     
     
     
 }
+.indexDiv{
+    
+}
+.card img{
+    width: 80%;
+}
+.card1{
+   width: 60%;
+   
+}
 
 .card2{
-    display: flex;
+    display: block;
 }
 
 .login{
