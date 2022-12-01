@@ -8,10 +8,11 @@ const Detail = () => {
   return (
     <center className="detail">
       <h1>{state.label}</h1>
-      <h4></h4>
+      
+    
+      <img src={state.image} alt="" />
       <p>{state.ingredientLines
 }</p>
-      <img src={state.image} alt="" />
     </center>
   )
 }
