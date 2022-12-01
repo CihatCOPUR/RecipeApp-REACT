@@ -9,11 +9,11 @@ const Cards = ({recipes}) => {
         <div key={index} className="indexDiv"> 
           <Card className='card1'>
       
-      <Card.Body className='card2'>
+      <center className='card2'>
         <Card.Title>{recipe.label}</Card.Title>
         <img src={recipe.image} alt="" />
         <Button  variant="primary">Detail</Button>
-      </Card.Body>
+      </center>
     </Card> 
         </div>
       ))}

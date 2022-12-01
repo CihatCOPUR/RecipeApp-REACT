@@ -40,7 +40,7 @@ background-color: aquamarine;
     margin-left: 2rem;
     flex-wrap: wrap;
     width: 100%;
-    
+    margin-top: 1rem;
     gap: 0.5rem;
     
     
@@ -49,6 +49,14 @@ background-color: aquamarine;
     width: 20%;
     padding: 5px;
     border: 2px solid darkblue;
+    background-color: aquamarine;
+}
+.card button{
+    margin: auto;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 8px;
 }
 .card img{
     width: 100%;
