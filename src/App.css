@@ -147,5 +147,27 @@ background-color: aquamarine;
     margin-top: 1rem;
 }
 .about{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.aboutWrite{
+    width: 35%;
+    height: 50vh;
+    margin-top: 10%;
+    border: 2px solid darkblue;
+    padding-top: 3%;
     
+}
+.aboutTeam{
+    width: 35%;
+    height: 50vh;
+    margin-top: 10%;
+    border: 2px solid darkblue;
+    padding-top: 11%;
+    font-weight: 20px;
+    font-size: 3rem !important;
+}
+.about span{
+    color: red;
 }
