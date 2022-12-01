@@ -150,23 +150,30 @@ background-color: aquamarine;
     display: flex;
     justify-content: center;
     font-weight: 700;
+    color: rgb(226, 192, 192);
+   
 }
 .aboutWrite{
     width: 35%;
-    height: 50vh;
-    margin-top: 10%;
+    height: 60vh;
+    margin-top: 8%;
     border: 2px solid darkblue;
-    padding-top: 3%;
-    
+    padding-top: 2%;
+    overflow: auto;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(36,14,36,1) 100%);
+    padding: 0.5rem;
 }
 .aboutTeam{
     width: 35%;
-    height: 50vh;
-    margin-top: 10%;
+    height: 60vh;
+    margin-top: 8%;
     border: 2px solid darkblue;
     padding-top: 11%;
     font-weight: 20px;
     font-size: 3rem !important;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(36,14,36,1) 100%);
 }
 .about span{
     color: red;
