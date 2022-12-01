@@ -2,11 +2,11 @@ import React from 'react'
 
 const Header = ({setQuery,getData,setSelectedMeal,mealType}) => {
   return (
-    <div className='header'>
+    <form className='header' onSubmit={getData}>
       
      <center>
-      <input type="text" placeholder='SEARCH'  onChange={()=> setQuery()}/>
-      <button onClick={()=>getData}>SEARCH</button>
+      <input type="text" placeholder='SEARCH'  onChange={(e)=> setQuery(e.target.value)}/>
+      <button  type='submit' >SEARCH</button>
       <select name="mealType" id="mealType" value="" onChange={(e)=> setSelectedMeal(e.target.value)}>
        {mealType.map((meal)=>{
         return(
@@ -15,7 +15,7 @@ const Header = ({setQuery,getData,setSelectedMeal,mealType}) => {
        })}
       </select>
      </center>
-    </div>
+    </form>
   )
 }
 
