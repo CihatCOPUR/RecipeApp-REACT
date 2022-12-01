@@ -34,7 +34,7 @@ console.log(recipes)
   return (
     <div className='home'>
 
-      
+      <Header  setQuery={setQuery}/>
       
     </div>
   )
