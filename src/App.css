@@ -36,10 +36,17 @@ background-color: aquamarine;
 }
 
 .card{
-    display: flex;
-    padding: 1rem;
+    display: flex ;
+    gap: 2rem;
     flex-wrap: wrap;
     
+    
+    
+}
+
+.card image {
+    width: 15rem;
+    height: 9rem;
 }
 
 .login{
