@@ -41,14 +41,19 @@ background-color: aquamarine;
     flex-wrap: wrap;
     width: 100%;
     
+    gap: 0.5rem;
     
     
 }
 .indexDiv{
-    
+    width: 20%;
+    padding: 5px;
+    border: 2px solid darkblue;
 }
 .card img{
-    width: 80%;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 .card1{
    width: 60%;
