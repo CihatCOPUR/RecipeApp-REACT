@@ -43,13 +43,16 @@ background-color: aquamarine;
     margin-top: 1rem;
     gap: 0.5rem;
     
-    
+    font-size:5px
 }
 .indexDiv{
     width: 20%;
     padding: 5px;
     border: 2px solid darkblue;
     background-color: aquamarine;
+}
+.cardTitle{
+    
 }
 .card button{
     margin: auto;
