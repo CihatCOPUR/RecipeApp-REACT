@@ -18,9 +18,8 @@ const Home = () => {
   const getData=async()=>{
 
     const {data}= await axios(url);
-   setRecipes(data.hits)
- 
-   
+
+   setRecipes(data.hits)   
   }
 
 console.log(recipes)
@@ -34,7 +33,7 @@ console.log(recipes)
   return (
     <div className='home'>
 
-      <Header  setQuery={setQuery}/>
+      <Header  mealType={mealType} setSelectedMeal={setSelectedMeal} setQuery={setQuery} getData={getData}/>
       
     </div>
   )
