@@ -112,8 +112,9 @@ background-color: aquamarine;
     background-color: rgb(168, 237, 214,0.6);
     border-radius: 45px;
 }
-.form{
- padding: 1rem;
+.header button{
+ margin-left: 8px;
+ margin-right: 8px;
  
 }
 .form button{
