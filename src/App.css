@@ -164,7 +164,7 @@ background-color: aquamarine;
 .aboutWrite{
     width: 35%;
     height: 60vh;
-    margin-top: 8%;
+    margin-top: 5%;
     border: 2px solid darkblue;
     padding-top: 2%;
     overflow: auto;
@@ -175,7 +175,7 @@ background-color: aquamarine;
 .aboutTeam{
     width: 35%;
     height: 60vh;
-    margin-top: 8%;
+    margin-top: 5%;
     border: 2px solid darkblue;
     padding-top: 11%;
     font-weight: 20px;
