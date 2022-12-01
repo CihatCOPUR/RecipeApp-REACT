@@ -50,9 +50,12 @@ background-color: aquamarine;
     padding: 5px;
     border: 2px solid darkblue;
     background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
 }
 .cardTitle{
-    
+    font-size: 15px;
+    font-weight: 800;
 }
 .card button{
     margin: auto;
@@ -68,11 +71,13 @@ background-color: aquamarine;
 }
 .card1{
    width: 60%;
-   
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .card2{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .login{

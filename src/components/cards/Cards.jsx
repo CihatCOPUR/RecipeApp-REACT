@@ -10,7 +10,7 @@ const Cards = ({recipes}) => {
           <Card className='card1'>
       
       <center className='card2'>
-        <Card.Title>{recipe.label}</Card.Title>
+        <Card.Title className='cardTitle'>{recipe.label}</Card.Title>
         <img src={recipe.image} alt="" />
         <Button  variant="primary">Detail</Button>
       </center>
