@@ -25,7 +25,7 @@ const AppRouter = () => {
 
         <Route path=""  element={<Detail/>} />
         </Route>
-          
+          <Route path='*'  element={<Home/>} />
      </Routes>
      </BrowserRouter>
     </div>

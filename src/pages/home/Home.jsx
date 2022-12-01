@@ -6,8 +6,8 @@ const Home = () => {
 
   const APP_ID=`90da419b`;
   const APP_KEY=`af2bd5bfdcaf49b896fc9dce958c73bc`
-  const [query, setQuery] = useState("");
-  const [selectedMeal, setSelectedMeal] = useState("");
+  const [query, setQuery] = useState("egg");
+  const [selectedMeal, setSelectedMeal] = useState("breakfast");
   const mealType=["Breakfast","Launch","Dinner","Snack","TeaTime"]
   
   const [recipes, setRecipes] = useState("")
@@ -19,6 +19,7 @@ const Home = () => {
 
     const {data}= await axios(url);
    setRecipes(data.hits)
+ 
    
   }
 
@@ -33,7 +34,7 @@ console.log(recipes)
   return (
     <div className='home'>
 
-      <Header setQuery={setQuery} getData={getData} setSelectedMeal={setSelectedMeal} mealType={mealType}/>
+      
       
     </div>
   )
