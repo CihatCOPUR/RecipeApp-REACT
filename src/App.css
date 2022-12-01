@@ -130,7 +130,10 @@ background-color: aquamarine;
 .home{
     margin-left: 0% !important;
 }
-.detail img{
-    padding: 3rem;
+.detail p{
+    padding: 2rem;
 
+}
+.detail img{
+    width: 30%;
 }
