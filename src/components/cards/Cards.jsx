@@ -7,9 +7,9 @@ const Cards = ({recipes}) => {
     <div className='card' >
       {recipes.map(({recipe},index)=>(
         <div key={index}> 
-          <Card style={{ width: '9rem' }}>
+          <Card >
       
-      <Card.Body>
+      <Card.Body className='card2'>
         <Card.Title>{recipe.label}</Card.Title>
         <img src={recipe.image} alt="" />
         <Button variant="primary">Go somewhere</Button>
