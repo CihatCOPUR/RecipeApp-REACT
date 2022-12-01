@@ -112,18 +112,25 @@ background-color: aquamarine;
     background-color: rgb(168, 237, 214,0.6);
     border-radius: 45px;
 }
-.header button{
+.header select{
  margin-left: 8px;
  margin-right: 8px;
  
 }
+.header button{
+    padding: 1px;
+    width: 15%;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
 .form button{
     margin-top: 2rem;
     margin-left: 25%;
-    width:45%;
+    width:65%;
     background-color: darkcyan;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 .form input{
     margin-top: 1rem;

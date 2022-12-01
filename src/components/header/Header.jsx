@@ -16,7 +16,7 @@ const handleSubmit=(e)=>{
           placeholder="SEARCH"
           onChange={(e) => setQuery(e.target.value)}
         />
-        <button type="submit">SEARCH</button>
+        
         <select
           name="mealType"
           id="mealType"
@@ -29,7 +29,7 @@ const handleSubmit=(e)=>{
             </option>
           ))}
         </select>
-     
+        <button type="submit">SEARCH</button>
       </form>
       
     </center>
