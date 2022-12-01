@@ -1,10 +1,12 @@
 import React from 'react'
-import { Button, Card } from 'react-bootstrap'
+import { Button, Card, Container } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
 const Cards = ({recipes}) => {
+  const navigate= useNavigate();
   
   return (
-    <div className='card' >
+    <Container className='card' wrap="wrap" >
       {recipes.map(({recipe},index)=>(
         <div key={index} className="indexDiv"> 
           <Card className='card1'>
@@ -12,13 +14,13 @@ const Cards = ({recipes}) => {
       <center className='card2'>
         <Card.Title className='cardTitle'>{recipe.label}</Card.Title>
         <img src={recipe.image} alt="" />
-        <Button  variant="primary">Detail</Button>
+        <Button  onClick={()=>navigate("detail",{state:recipe , replace:false})} variant="primary">Detail</Button>
       </center>
     </Card> 
         </div>
       ))}
         
-    </div>
+    </Container>
   )
 }
 
